@@ -1,0 +1,159 @@
+body
+  font-family: Montserrat,sans-serif
+  background-color: #fff
+  color: #333
+  margin: 0
+  padding: 0
+
+header
+  background-color: #333
+  color: #fff
+  display: flex
+  justify-content: space-between
+  margin: 0
+  a
+    text-decoration: none
+    color: #fff
+    border-radius: 5px
+    background-color: #ff6600
+    transition: background-color 0.3s ease
+    margin: 10px 20px
+    padding: 10px 20px
+    border: none
+    cursor: pointer
+    font-size: 16px
+.reviews
+  font-family: Montserrat,sans-serif
+  background-color: #fff
+  color: #333
+  margin: 20px
+  padding: 20px
+  .review
+    display: flex
+    align-items: center
+    margin-bottom: 20px
+    border-bottom: 1px solid #ccc
+    padding-bottom: 20px
+
+  .profile
+    flex: 0 0 100px
+    img
+      width: 100px
+      height: 100px
+
+  .review-content
+    flex-grow: 1
+    padding-left: 20px
+
+    h4
+      font-size: 18px
+      margin: 0
+
+    p
+      text-align: left
+      margin: 0
+
+
+// Шапка страницы
+.header
+  background-color: #333
+  color: #fff
+  padding: 20px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 30px
+  a
+    text-decoration: none
+    color: #fff
+    padding: 10px 20px
+    border-radius: 5px
+    background-color: #ff6600
+    transition: background-color 0.3s ease
+
+    &:hover
+      background-color: #ff9933
+  .header-content
+    display: flex
+    justify-content: space-between
+    padding: 20px
+
+    div
+      h2
+        margin: 0
+
+
+
+// Основной контент страницы
+.main
+  padding: 40px
+  display: block
+  align-items: center
+
+  .main-content
+    justify-content: space-between
+    display: flex
+    align-items: center
+    width: 100%
+
+    .main-left
+      width: 50%
+
+      img
+        max-width: 100%
+        height: auto
+        padding: 0
+        margin: 0
+
+    .main-right
+      max-width: 50%
+      padding: 20px
+
+// Стили для раздела "Отзывы" добавлены выше
+/* Дополнительные стили для формы отправки отзыва */
+#review-form
+  max-width: 600px
+  margin: auto
+  background-color: #fff
+  border: 1px solid #ccc
+  padding: 20px 70px
+  border-radius: 5px
+
+label
+  display: block
+  margin-bottom: 10px
+  font-weight: bold
+input[type="text"], input[type="url"], textarea
+  width: 100%
+  padding: 10px
+  margin-bottom: 20px
+  border: 1px solid #ccc
+  border-radius: 5px
+textarea
+  width: 100%
+  padding: 10px
+  margin: 10px 0
+  border: 1px solid #ccc
+  border-radius: 5px
+
+button#submit-review
+  background-color: #ff6600
+  color: #fff
+  border: none
+  border-radius: 5px
+  padding: 10px 20px
+  cursor: pointer
+  transition: background-color 0.3s ease
+
+  &:hover
+    background-color: #ff9933
+// Футер страницы
+.footer
+  .footer-content
+    h3
+      font-size: 24px
+
+    p
+      margin: 10px 0
+.form-container
+  padding: 20px
