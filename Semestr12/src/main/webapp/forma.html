@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/forma/forma.css">
+    <title>заявки</title>
+</head>
+<body>
+<header>
+    <p><a href="home">Главная</a></p>
+    <p><a href="profile">Профиль</a></p>
+</header>
+<main class="job-applications">
+    <div class="job-applications-container">
+        <h2>Отправить предложение о сотрудничестве</h2>
+        <form id="job-application-form">
+            <label for="job-description">Описание работы:</label>
+            <textarea id="job-description" name="job-description" required placeholder="Укажите название заявки, сроки, бюджет и подробное описание с Вашим представлением о сотрудничестве, иначе заявка не будет рассмотрена."></textarea>
+            <button type="submit">Отправить заявку</button>
+        </form>
+
+        <div class="applications-list">
+            <h2>Список отправленных заявок</h2>
+            <ul>
+                <li class="application">
+                    <p class="application-date">Название заявки: Разработка и поддержка веб-приложения для учета личных финансов
+
+                        Сроки: 3 месяца
+
+                        Бюджет: $15,000
+
+                        Подробное описание:
+                        Мы ищем опытного фулстек разработчика на JavaScript для создания и поддержки веб-приложения, предназначенного для учета личных финансов. Наша компания предоставляет
+                        пользовательские финансовые инструменты, и мы стремимся улучшить опыт наших клиентов, предоставив им интуитивно понятное и удобное приложение.</p>
+
+                </li>
+               </ul>
+        </div>
+
+    </div>
+</main>
+</body>
+</html>
